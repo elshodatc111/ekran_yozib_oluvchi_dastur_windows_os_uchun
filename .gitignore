@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Yig'ish natijalari
+build/
+dist/
+installer_out/
+*.spec
+
+# FFmpeg (katta fayl, get_ffmpeg.ps1 yuklaydi)
+ffmpeg/*
+!ffmpeg/README.txt
+
+# Muharrir / tizim
+.vscode/
+.idea/
+Thumbs.db
+*.log
